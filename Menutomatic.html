@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Menutomatic</title>
+<script type="text/javascript">
+function generarMenu() {
+document.getElementById('LComida').value = 'Macarrones';
+document.getElementById('LCena').value = 'Nuggets de pollo';
+document.getElementById('MComida').value = 'Hamburguesa';
+document.getElementById('MCena').value = 'Ensalada';
+document.getElementById('XComida').value = 'Pizza';
+document.getElementById('XCena').value = 'Spaghetti';
+document.getElementById('JComida').value = 'Emperador';
+document.getElementById('JCena').value = 'Tortilla';
+document.getElementById('VComida').value = 'Canelones';
+document.getElementById('VCena').value = 'Merluza';
+document.getElementById('SComida').value = 'Fajitas';
+document.getElementById('SCena').value = 'Perrito';
+document.getElementById('DComida').value = 'Boquerones';
+document.getElementById('DCena').value = 'Solomillo Wellington';
+}
+
+</script>
+</head>
+<body>
+	<form>
+		<table border=1>
+			<tr>
+				<td></td>
+				<td>Comida</td>
+				<td>Cena</td>
+			</tr>
+			<tr>
+				<td>L</td>
+				<td><input id="LComida" type="text" value=""></td>
+				<td><input id="LCena" type="text" value=""></td>
+			</tr>
+			<tr>
+				<td>M</td>
+				<td><input id="MComida" type="text" value=""></td>
+				<td><input id="MCena" type="text" value=""></td>
+			</tr>
+			<tr>
+				<td>X</td>
+				<td><input id="XComida" type="text" value=""></td>
+				<td><input id="XCena" type="text" value=""></td>
+			</tr>
+			<tr>
+				<td>J</td>
+				<td><input id="JComida" type="text" value=""></td>
+				<td><input id="JCena" type="text" value=""></td>
+			</tr>
+			<tr>
+				<td>V</td>
+				<td><input id="VComida" type="text" value=""></td>
+				<td><input id="VCena" type="text" value=""></td>
+			</tr>
+			<tr>
+				<td>S</td>
+				<td><input id="SComida" type="text" value=""></td>
+				<td><input id="SCena" type="text" value=""></td>
+			</tr>
+			<tr>
+				<td>D</td>
+				<td><input id="DComida" type="text" value=""></td>
+				<td><input id="DCena" type="text" value=""></td>
+			</tr>
+		</table>
+		<input type="button" value="Generar menu" onClick="generarMenu();">
+	</form>
+</body>
+</html>
